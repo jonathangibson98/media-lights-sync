@@ -2,7 +2,7 @@
 
 _AppDaemon App that synchronizes the color of RGB lights with the thumbnail of a media player in Home Assistant._[span_0](start_span)[span_0](end_span)
 
-[![hacs_badge](https://img.shields.io/badge/HACS-Default-orange.svg?style=for-the-badge)](https://github.com/custom-components/hacs) [![](https://img.shields.io/github/release/jonathangibson98/media-lights-sync/all.svg?style=for-the-badge)](https://github.com/jonathangibson98/media-lights-sync/releases) ![downloads-latest](https://img.shields.io/github/downloads/jonathangibson98/media-lights-sync/total?style=for-the-badge)[span_1](start_span)[span_1](end_span)
+[![hacs_badge](https://img.shields.io/badge/HACS-Default-orange.svg?style=for-the-badge)](https://github.com/custom-components/hacs) [![](https://img.shields.io/github/release/jonathangibson98/media-lights-sync/all.svg?style=for-the-badge)]
 
 [![Tests](https://github.com/jonathangibson98/media-lights-sync/actions/workflows/tests.yaml/badge.svg?branch=master)](https://github.com/jonathangibson98/media-lights-sync/actions/workflows/tests.yaml)[span_2](start_span)[span_2](end_span)
 
