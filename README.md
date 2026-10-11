@@ -1,28 +1,28 @@
 # Media Player Lights Sync
 
-_AppDaemon App that synchronizes the color of RGB lights with the thumbnail of a media player in Home Assistant._[span_0](start_span)[span_0](end_span)
+_AppDaemon app that synchronizes the color of RGB lights with the thumbnail of a media player in Home Assistant._
 
-[![hacs_badge](https://img.shields.io/badge/HACS-Default-orange.svg?style=for-the-badge)](https://github.com/custom-components/hacs) [![](https://img.shields.io/github/release/jonathangibson98/media-lights-sync/all.svg?style=for-the-badge)]
+[![hacs_badge](https://img.shields.io/badge/HACS-Default-orange.svg?style=for-the-badge)](https://github.com/custom-components/hacs)
+[![Release](https://img.shields.io/github/release/jonathangibson98/media-lights-sync/all.svg?style=for-the-badge)](https://github.com/jonathangibson98/media-lights-sync/releases)
+[![Tests](https://github.com/jonathangibson98/media-lights-sync/actions/workflows/tests.yaml/badge.svg?branch=master)](https://github.com/jonathangibson98/media-lights-sync/actions/workflows/tests.yaml)
 
-[![Tests](https://github.com/jonathangibson98/media-lights-sync/actions/workflows/tests.yaml/badge.svg?branch=master)](https://github.com/jonathangibson98/media-lights-sync/actions/workflows/tests.yaml)[span_2](start_span)[span_2](end_span)
-
-<img src="https://github.com/jonathangibson98/media-lights-sync/blob/main/examples/example-1.jpg" alt="Example 1" width="400"> <img src="https://github.com/jonathangibson98/media-lights-sync/blob/main/examples/example-1.jpg" alt="Example 1" width="400">[span_4](start_span)[span_4](end_span)
+<img src="https://raw.githubusercontent.com/jonathangibson98/media-lights-sync/main/examples/example-1.jpg" alt="Example 1" width="400"> <img src="https://raw.githubusercontent.com/jonathangibson98/media-lights-sync/main/examples/example-2.jpg" alt="Example 2" width="400">
 
 ## Features
 
-- Realtime RGB lights color synchronization with the thumbnail of a media player[span_5](start_span)[span_5](end_span)
-- Extract most relevant colors from a picture and assign them to lights[span_6](start_span)[span_6](end_span)
-- Always creates great matching moody ambiances[span_7](start_span)[span_7](end_span)
-- Change all configured lights color at the same time using multithreading[span_8](start_span)[span_8](end_span)
-- Prevent lights synchronization based on a state condition from your Home Assistant[span_9](start_span)[span_9](end_span)
+- Realtime RGB light color synchronization with the thumbnail of a media player
+- Extracts the most relevant colors from a picture and assigns them to lights
+- Always creates great matching moody ambiances
+- Changes all configured lights at the same time using multithreading
+- Prevents synchronization based on a state condition from your Home Assistant
 
 ## Installation
 
-Use [HACS](https://hacs.xyz/) or download the `media_lights_sync` directory from inside the `apps` directory here to your local `apps` directory, then add the configuration to enable the `media_lights_sync` module[span_10](start_span)[span_10](end_span).
+Use [HACS](https://hacs.xyz/), or download the `media_lights_sync` directory from inside the `apps` directory to your local `apps` directory. Then add the configuration to enable the `media_lights_sync` module.
 
 ## Prerequisites
 
-In order for this app to work, you need to add `py3-pillow` and `Pillow` to the config of your AppDaemon 4 Supervisor add-on[span_11](start_span)[span_11](end_span):
+For this app to work, add `py3-pillow` and `Pillow` to the config of your AppDaemon 4 Supervisor add-on:
 
 ```yaml
 system_packages:
@@ -31,3 +31,4 @@ python_packages:
   - Pillow
 init_commands: []
 log_level: info
+```
