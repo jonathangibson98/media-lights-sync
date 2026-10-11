@@ -4,7 +4,6 @@ _AppDaemon app that synchronizes the color of RGB lights with the thumbnail of a
 
 [![hacs_badge](https://img.shields.io/badge/HACS-Default-orange.svg?style=for-the-badge)](https://github.com/custom-components/hacs)
 [![Release](https://img.shields.io/github/release/jonathangibson98/media-lights-sync/all.svg?style=for-the-badge)](https://github.com/jonathangibson98/media-lights-sync/releases)
-[![Tests](https://github.com/jonathangibson98/media-lights-sync/actions/workflows/tests.yaml/badge.svg?branch=master)](https://github.com/jonathangibson98/media-lights-sync/actions/workflows/tests.yaml)
 
 <img src="https://raw.githubusercontent.com/jonathangibson98/media-lights-sync/main/examples/example-1.jpg" alt="Example 1" width="400"> <img src="https://raw.githubusercontent.com/jonathangibson98/media-lights-sync/main/examples/example-2.jpg" alt="Example 2" width="400">
 
