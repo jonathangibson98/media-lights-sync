@@ -8,7 +8,7 @@ _AppDaemon App that synchronizes the color of RGB lights with the thumbnail of a
 
 <a href="https://www.buymeacoffee.com/ericmatte" target="_blank"><img src="https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png" alt="Buy Me A Coffee" style="height: auto !important;width: auto !important;" ></a>[span_3](start_span)[span_3](end_span)
 
-<img src="https://github.com/jonathangibson98/media-lights-sync/blob/main/examples/example-1.jpg" alt="Example 1" width="400"> <img src="https://github.com/jonathangibson98/media-lights-sync/raw/master/examples/example-2.jpg" alt="Example 1" width="400">[span_4](start_span)[span_4](end_span)
+<img src="https://github.com/jonathangibson98/media-lights-sync/blob/main/examples/example-1.jpg" alt="Example 1" width="400"> <img src="https://github.com/jonathangibson98/media-lights-sync/blob/main/examples/example-1.jpg" alt="Example 1" width="400">[span_4](start_span)[span_4](end_span)
 
 ## Features
 
